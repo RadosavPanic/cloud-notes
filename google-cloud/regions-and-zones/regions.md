@@ -8,22 +8,23 @@ Region is a specific geographical location to host your resources.
 
 1. **Compliance**
 
-   > [!IMPORTANT]
-   > **Be aware about regulations**: Some countries require citizens data to stay within borders
+> [!IMPORTANT]
+> **Be aware about regulations**: Some countries require citizens data to stay within borders
 
 2. **Latency**
 
-   > [!NOTE]
-   > **Be close to your users**: Choose a region closest to the majority of your users
+> [!NOTE]
+> **Be close to your users**: Choose a region closest to the majority of your users
 
 3. **Services available**
 
-   > [!NOTE]
-   > **Does the region support the services you need**: New services often launch in specific regions first
+> [!NOTE]
+> **Does the region support the services you need**: New services often launch in specific regions first
 
 4. **Pricing**
-   > [!CAUTION]
-   > **Check pricing in different regions**: Costs can vary between regions for same resources
+
+> [!CAUTION]
+> **Check pricing in different regions**: Costs can vary between regions for same resources
 
 ## Why use Multiple Regions?
 
