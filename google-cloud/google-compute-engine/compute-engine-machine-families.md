@@ -4,18 +4,18 @@ There are several machine families you can choose from when creating a VM instan
 
 Machine Families for different workloads:
 
-1. **General purpose**: <span style="color:#09b878;">**E2, N2, N2D, N1**</span> → Best price-performance ratio
+1. **General purpose**: **E2, N2, N2D, N1** → Best price-performance ratio
 
 - Web and application servers
 - Small-medium databases
 - Dev environments
 
-2. **Memory optimized**: <span style="color:#09b878;">**M2, M1**</span> → Ultra high memory workloads
+2. **Memory optimized**: **M2, M1** → Ultra high memory workloads
 
 - Large in-memory databases
 - In-memory analytics
 
-3. **Compute Optimized**: <span style="color:#09b878;">**C2**</span> → Compute intensive workloads
+3. **Compute Optimized**: **C2** → Compute intensive workloads
 
 - Gaming applications
 
@@ -42,7 +42,7 @@ Machine Families for different workloads:
 > - **standard**: Type of workload
 > - **2**: Number of CPUs
 
-For example, <span style="color:#09b878;">**e2-standard-4**</span> has 4 vCPUs, <span style="color:#09b878;">**16 GB**</span> of memory and maximum egress bandwith (Gbps)<sup>3</sup> of <span style="color:#09b878;">**8**</span>, which offers an advantage on previous machine type.
+For example, **e2-standard-4** has 4 vCPUs, **16 GB** of memory and maximum egress bandwith (Gbps)<sup>3</sup> of **8**, which offers an advantage on previous machine type.
 
 ## What OS and software is wanted on the instance?
 
