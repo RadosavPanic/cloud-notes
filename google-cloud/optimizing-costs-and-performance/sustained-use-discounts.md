@@ -17,4 +17,4 @@ Whenever making use of the Cloud, we want to keep our costs as low as possible.
 > **RESTRICTIONS**
 >
 > - Does not apply on certain machine types (etc. E2 and A2)
-> - Does not apply to VMs created by App Engine flexible and Dataflow
+> - Does not apply to VMs created by **App Engine flexible** and **Dataflow**
