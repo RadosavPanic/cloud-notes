@@ -21,3 +21,16 @@
 > - No SLA and **cannot be migrated** to regular VMs
 > - No automatic restarts
 > - Free tier credits not applicable
+
+## Stop VMs
+
+Spot VMs are the latest version of preemtible VMs.
+
+Spot VMs `do not have maximum runtime` like Preemptible VMs do with 24 hours.
+
+Other features are similar to traditional preemptible VMs:
+
+- May be reclaimed at any time with 30-second notice
+- Not always available
+- **Dynamic Pricing**: 60 - 91% discount compared to on-demand VMs
+- Free Tier credits not applicable
