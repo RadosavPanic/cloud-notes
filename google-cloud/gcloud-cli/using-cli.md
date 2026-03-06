@@ -1,6 +1,13 @@
 # Using Gcloud CLI
 
-Commands that can be used:
+Commands available for Gcloud config:
+
+- `get`: Print the value of a GC CLI property
+- `list`: List GC CLI properties for the currently active configuration
+- `set`: Set a GC CLI property
+- `unset`: Unset a GC CLI property
+
+Basic commands that can be used:
 
 1. `gcloud -v`: Lists the version of Gcloud SDK and list of items installed in addition
 
