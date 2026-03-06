@@ -12,9 +12,25 @@
    EXTERNAL_IP:
    STATUS: TERMINATED
    ```
-2. `gcloud compute instances create instanceName`: Creates an instance with specified name
-3. `gcloud compute instances delete instanceName`: Deletes an instance with specified name
-4. `gcloud compute instances describe instanceName`: Lists all properties with values for an instance with specified name
+2. `gcloud compute instances delete instanceName`: Deletes an instance with specified name
+3. `gcloud compute instances describe instanceName`: Lists all properties with values for an instance with specified name
+4. `gcloud compute instances create instanceName`: Creates an instance with specified name
+
+   **Options (flags):**
+   - --machine-type (default is n1-standard-1)
+   - --custom cpu --custom-memory --custom-vm-type (etc. 6 -> 3072MB -> N1/N2)
+   - --image OR --image-family OR --source-snapshot OR --source-instance-template OR --source-machine-image
+   - --service-account OR --no-service-account
+   - --zone
+   - --tags (List of tags - Allow network firewall rules and routes to be applied to VM instances)
+   - --preemptible
+   - --restart-on-failure (it's default) --no-restart-on-failure --maintenance-policy (default: MIGRATE / TERMINATE)
+   - --boot-disk-size --boot-disk-type --boot-disk-auto-delete (default) --no-boot-disk-auto-delete
+   - --deletion-protection --no-deletion-protection (default)
+   - --metadata/--metadata-from-file startup-script/startup-script-url
+     - --metadata-from-file startup-script-url=/local/path/to/script/startup
+     - --metadata startuo-script="echo 'some text'"
+     - there is also possibility to execute a script upon VM shutdown: `shutdown script`
 
 ## Zones
 
