@@ -57,3 +57,4 @@ Basic commands that can be used:
    - Select from the list of available zones in regions, and option 1 is `Do not set default zone`
 
 3. `gcloud config list`: Lists all properties of the active configuration
+4. `gcloud config --help` **/** `gcloud config list --help` **/** `gcloud config set --help`
