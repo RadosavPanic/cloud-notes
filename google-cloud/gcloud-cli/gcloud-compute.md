@@ -63,6 +63,7 @@
     ```
     gcloud compute machine-types list \
        --filter="zone=(asia-southeast2-b asia-southeast2-c)" \
+       --sort-by=~guestCpus \
        --format="table(name, guestCpus, memoryMb, zone)"
     ```
 
